@@ -1,5 +1,7 @@
 Tic Tac Toe
 
+Start with start.html to run the web game.
+
 The below is what has been completed is marked. What has not been completed is not marked. 
 
 Current BUGS: 
