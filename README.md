@@ -2,6 +2,12 @@ Tic Tac Toe
 
 The below is what has been completed is marked. What has not been completed is not marked. 
 
+Current BUGS: 
+1. Timer runs quick, alert comes up really quick.
+2. After window confirm, a X piece is placed from queue.
+
+Other features listed and marked below are functioning. 
+
 - [x]  Allow for two players to take turns. Assume X always starts the game.
 - [x]  Detect when the game ends
     - [x]  when there is no winner and the game has gone for more than 2 minutes.
