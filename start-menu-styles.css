@@ -1,0 +1,28 @@
+body {
+    font-family: "Helvetica Neue";
+    background-color: #87cefa;
+    color: black;
+  }
+  
+h2 {
+    margin: 16px auto;
+    text-align: center;
+    font-size: 4em;
+}
+
+/* Button: NewGame and Reset */
+#play-against-ai, #play-2-players, #try-again {
+    text-align:center;
+    background-color: #ff8c00;
+    color: #000000;
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    display: block;
+    margin: 20px auto;
+  }
+  
+#play-against-ai:hover, #play-2-players:hover, #try-again {
+    background-color: orange;
+}

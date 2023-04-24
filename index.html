@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe Game</title>
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <h1>Tic Tac Toe</h1>
+    <h2>Its your turn, <span class="display_player"></span>.</h2> 
+
+    <div class="score_container">
+      <h4>Scores: X: <span id="score_x">0</span> O: <span id="score_o">0</span></h4>
+      <h4><span id="timer">500</span> milliseconds left for Player: <span class="display_player">X</span></h4>
+      
+    </div>
+
+    <div class="game_board">
+      <div class='row'>
+        <div class="one"><span class="xo"></span></div>
+        <div class="two"><span class="xo"></span></div>
+        <div class="three"><span class="xo"></span></div>
+      </div>
+      <div class='row'>
+        <div class="four"><span class="xo"></span></div>
+        <div class="five"><span class="xo"></span></div>
+        <div class="six"><span class="xo"></span></div>
+      </div>
+      <div class='row'>
+        <div class="seven"><span class="xo"></span></div>
+        <div class="eight"><span class="xo"></span></div>
+        <div class="nine"><span class="xo"></span></div>
+      </div>
+    </div>
+
+    <button class="new_game">New Game</button>
+    <button class="reset">Reset</button>
+    <script src="main.js"></script>
+    <script src="start-menu.js"></script>
+  </body>
+
+
+</html>
